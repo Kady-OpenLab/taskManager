@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Singup</title>
+</head>
+<body>
+        <div id="navigation">
+            <script>
+                $("#navigation").load("navigation.html");
+            </script>
+        </div>
+    <div id="background">
+        <div class="container-fluid" id="formContainer">
+            <h1 class="mb-5 ml-4">Sign Up</h1>
+            <div class="card">
+                <form action="http://localhost/backend/taskMenager/api/login" method="POST">
+                    <h3>Email:</h3>
+                    <input name="email" type="email" class="mb-5" autocomplete="off">
+                    <br>
+                    <h3>Name:</h3>
+                    <input name="namee" type="text" class="mb-5">
+                    <br>
+                    <h3>Password:</h3>
+                    <input name="password" type="password" class="mb-5">
+                    <br>
+                    <h3>Repeate password:</h3>
+                    <input name="passwordCheck" type="password">
+                    <br>
+                    <button id="submit" type="submit" class="btn btn-primary mt-5">Submit</button>
+                </form>
+                <span id="messageSpan"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

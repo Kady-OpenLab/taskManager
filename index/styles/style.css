@@ -1,0 +1,172 @@
+/* NAVIGATION STYLES */
+body{
+    font-family: timeBurner;
+}
+#logo{
+    height: 3em;
+}
+#logoCont{
+    padding-top: 1em;
+    text-align: center;
+}
+#navig{
+    padding: 1em;
+}
+#links{
+    list-style-type: none;
+    padding-top: 1em;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+/* DISPLAY PAGE STYLES */
+
+    /*Card alignment*/
+
+    .cardHandler{
+        text-align: center;
+    }
+    .cardHandler a{
+        color: white;
+    }
+    .cardHandler a:hover{
+        color: white;
+    }
+    /*Card elements styles*/
+
+    .center{
+        align-self: center;
+    }
+    .resizeImage{
+        width: 8em;
+    }
+    .cardContainer .card{
+        width: 12em;
+    }
+    .cardContainer{
+        display: inline-block;
+    }
+    .cardContainer{
+        background-color: #ccccff        ;
+        height: 45em;
+    }
+
+/* MAIN PAGE STYLES */
+
+#mainPage{
+    color: white;
+    height: 41em;
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+}
+.pageText{
+    position: relative;
+    padding-top: 10em;
+    padding-left: 5em;
+}
+.pageText h1{
+    font-size: 10em;
+    font-family: tropicAsian;
+}
+.pageText h6{
+    font-family: timeBurner;
+}
+
+/* ABOUT PAGE */
+#aboutPage{
+    height: 25em;
+    background-color: #008ae6;
+}
+#aboutPage h1{
+    font-family: tropicAsian;
+    font-size: 7em;
+    color: white;
+}
+
+#aboutPage h6{
+    color: white;
+    font-size: 1.2em;
+}
+.contact{
+    padding-top: 17em;
+}
+.contact h3{
+ color: white;
+}
+
+
+/* FORM STYLES */
+
+#background{
+    background-image: url("../assets/back.jfif");
+    background-size: cover;
+    height: 50em;
+}
+#formContainer{
+    text-align: center;
+    align-self: center;
+    padding-top: 2em;
+    width: 50em;
+}
+#formContainer h3{
+    font-size: 1.5em;
+}
+#formContainer input{
+    text-align: center ;
+    width: 13em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: 350ms;
+}
+#formContainer input:hover{
+    border-color: gray;
+    width: 14em;
+}
+#formContainer input:focus{
+    outline: none;
+    width: 18em;
+    border-color: black;
+}
+#formContainer button{
+    line-height: 1.5em;
+    width: 10em;
+    transition: 500ms;
+}
+#formContainer button:hover{
+    /*line-height: 2em;
+    width: 15em;*/
+    font-size: 1.15em;
+    border-color: lime;
+    background-color: lime;
+}
+#formContainer h1{
+    font-size: 5em;
+}
+#formContainer .card{
+    border-width: 2px;
+    border-color: black;
+    padding-top: 1em;
+    margin-left: 15em;
+    width: 20em;
+    height: 35em;
+    box-shadow: 0 7px 12px 0 rgba(10, 0, 0, 0.9), 0 10px 30px 0 rgba(10, 0, 0, 0.3);
+}
+
+/* JQUERY STYLES */
+.invalid{
+    background-color: salmon;
+}
+
+/* FONTS */
+@font-face {
+    font-family: timeBurner;
+    src: url("../assets/timerBurner.ttf");
+  }
+@font-face{
+    font-family: tropicAsian;
+    src: url("../assets/tropicalAsian.ttf");
+}
+
